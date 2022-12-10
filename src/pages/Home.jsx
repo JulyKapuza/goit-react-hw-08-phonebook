@@ -31,17 +31,17 @@ export default function Home() {
           boxShadow:
             ' rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;',
           p: 3,
-          marginBottom: 20,
+          // marginBottom: 20,
         }}
       >
         <Typography
           variant="h1"
           component="h1"
-          mt={{ color: '#6a79a6', fontWeight: 700 }}
+          mt={{ color: '#6a79a6', fontWeight: 500 }}
         >
           The Phonebook
         </Typography>
-        <img src={images} alt="phone" width="400" />
+        <img src={images} alt="phone" width="250" />
       </Box>
       <Box
         sx={{
