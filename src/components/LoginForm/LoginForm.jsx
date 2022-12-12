@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 
+
 const theme = createTheme({
   palette: {
     primary: {
@@ -29,6 +30,7 @@ export const LoginForm = () => {
         password: form.elements.password.value,
       })
     );
+    
     form.reset();
   };
 
